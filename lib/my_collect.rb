@@ -8,4 +8,4 @@ def my_collect(collection)
   array
 end
 
-hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+my_collect(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
